@@ -17,7 +17,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
   position: absolute;
   width: 100%;
   padding: 20px 120px;
@@ -268,3 +267,38 @@ nav ul li a {
 #anchor2 {
   scroll-margin-top: 50px;
 }
+
+@media (max-width: 767px) {
+    header ul li {
+      padding-left: 20px; 
+    }
+  
+    nav ul li {
+      padding-left: 20px;
+    }
+  }
+  @media (max-width: 480px) {
+    .numberTitles {
+      margin-left: 2%; /* Adjust margin for smaller screens */
+    }
+  
+    .numberTitles .number {
+      font-size: 60px; /* Adjust font size for smaller screens */
+    }
+  
+    .numberTitles .title {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  
+    .teamText {
+      font-size: 12px; /* Adjust font size for smaller screens */
+      bottom: 0;
+      left: 0;
+      margin: 10px;
+    }
+  
+    .menu a {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+  } 
